@@ -9,17 +9,10 @@ const Header = () => {
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand> <Link to='/'>FOOD APP</Link></Navbar.Brand>
-                    <Nav className="me-auto" defaultActiveKey="/" as="ul">
-                        <Nav.Item as="li">
-                            <Nav.Link href="/restaurant">Restaurant</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item as="li">
-                            <Nav.Link href="/features">Features</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item as="li">
-                            <Nav.Link href="/pricing ">Pricing</Nav.Link>
-                        </Nav.Item>
-
+                    <Nav className="me-auto">
+                        <Nav.Link><Link to='/restaurant'>Restaurant</Link></Nav.Link>
+                        <Nav.Link > <Link to='/features'>Features</Link></Nav.Link>
+                        <Nav.Link> <Link to='/pricing'> Pricing</Link></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
@@ -31,6 +24,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
