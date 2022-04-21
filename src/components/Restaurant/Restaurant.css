@@ -1,0 +1,19 @@
+.foods {
+    /* background-color: #2d2013; */
+    width: 1440px;
+    margin: auto;
+    padding: 0 100px;
+}
+
+
+
+.seachc-filed {
+    background-color: black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.seachc-filed input {
+    width: 800px;
+    margin-left: 23%;
+}
